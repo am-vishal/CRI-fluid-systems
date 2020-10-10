@@ -1,13 +1,256 @@
+html {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to bottom, #FFFFFF, #FFF8AA);
+}
+
 body {
   margin: 0;
+  padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(to bottom, #FFFFFF, #FFF8AA);
+
+}
+.title {
+  text-align: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.title>img {
+  height: 7em;
+  width: 20em;
+}
+
+.heading {
+  float: right;
+  font-weight: bold;
+}
+
+#heading {
+  text-align: center;
+  padding: 0em 1em;
+}
+
+
+.first {
+  text-align: center;
+  display:flex;
+  width: 50%;
+  /* float: right !important; */
+  padding: 1em;
+  font-size: 12px;
+}
+@media (max-width:520px) {
+  .first {
+    width: 100%;
+    padding:1em 1em 1em 0;
+    margin: 0;
+    text-align: center;
+  }
+}
+@media  (min-width:520px) and (max-width:720px) {
+  .first {
+    float: right;
+    padding:1em 1em 1em 0;
+    text-align: center;
+  }
+}
+@media (min-width:720px) and (max-width:4280px) {
+  .first {
+    width: 50%;
+    padding:1em 1em 1em 0;
+    margin: 0;
+    text-align: center;
+    float:right;
+    font-size: 16px;
+  }
+}
+.last {
+  text-align: center;
+  display:flex;
+  width: 50%;
+  /* float: right; */
+  font-size: 12px;
+  padding: 0 1em 0 0;
+}
+@media (max-width:520px) {
+  .last {
+    width: 100%;
+    padding:1em 1em 1em 0;
+    margin: 0;
+    text-align: center;
+  }
+}
+@media  (min-width:520px) and (max-width:720px) {
+  .last {
+    float: right;
+    padding:1em 1em 1em 0;
+    text-align: center;
+  }
+}
+@media (min-width:720px) and (max-width:4280px) {
+  .last {
+    width: 50%;
+    padding:1em 1em 1em 0;
+    margin: 0;
+    text-align: center;
+    float:right;
+    font-size: 16px;
+  }
+}
+
+
+.award1 {
+
+  width: 50%;
+  float: left;
+}
+
+@media (max-width:520px) {
+  .award1 {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+}
+@media  (min-width:520px) and (max-width:720px) {
+  .award1 {
+    width: 40%;
+    text-align: center;
+    
+  }
+}
+@media  (min-width:720px) and (max-width:4280px) {
+  .award1 {
+    width: 35%;
+    text-align: center;
+  }
+}
+
+
+.award2 {
+  width: 50%;
+  float: right;
+}
+
+@media (max-width:520px) {
+  .award2 {
+    width: 100%;
+    text-align: center;
+  
+  }
+}
+
+.middle-text {
+  display: inline-block;
+  
+}
+@media (max-width:520px) {
+  .middle-text {
+    font-size: 12px;
+  }
+}
+
+.machine {
+  /* background: transparent; */
+
+}
+
+.machine>img {
+  background: transparent;
+}
+
+.pump-caption {
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+
+}
+
+.left {
+  left: 0;
+  display: inline-block;
+  color: white;
+
+}
+@media (max-width:520px) {
+  .left {
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    padding:1em !important;
+    margin:0 !important;
+  }
+}
+@media (min-width:521px) and (max-width:720px) {
+  .left {
+    font-size: 12px;
+    text-align: center;
+    display: inline-block;
+    padding:0em !important;
+    margin:0 !important;
+    
+  }
+}
+.middle {
+  left: 60%;
+  display: inline;
+  color:white;
+  text-align: center;
+
+}
+@media (max-width:520px) {
+  .middle {
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    padding:1em !important;
+    margin:0 !important;
+  }
+}
+@media (min-width:521px) and (max-width:720px) {
+  .middle {
+    font-size: 12px;
+    text-align: center;
+    display: inline-block;
+    padding:1em !important;
+    margin:0 !important;
+  }
+}
+
+.right {
+  right: 0%;
+  display: inline;
+  color: white;
+}
+@media (max-width:520px) {
+  .right {
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    padding:1em !important;
+    margin:0 !important;
+  }
+}
+@media (min-width:521px) and (max-width:720px) {
+  .right {
+    font-size: 12px;
+    text-align: center;
+    display: inline-block;
+    padding:0em !important;
+    margin:0 !important;
+  }
+}
+.caption{
+  font-size:12px;
+}
+a{
+  color: white !important;
+}
+.award2-item{
+  right: 0;
+
 }
