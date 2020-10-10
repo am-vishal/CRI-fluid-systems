@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/CRI-fluid-systems/static/css/main.ab1cc257.chunk.css",
+    "main.js": "/CRI-fluid-systems/static/js/main.7db3c538.chunk.js",
+    "main.js.map": "/CRI-fluid-systems/static/js/main.7db3c538.chunk.js.map",
+    "runtime-main.js": "/CRI-fluid-systems/static/js/runtime-main.28f7cdf7.js",
+    "runtime-main.js.map": "/CRI-fluid-systems/static/js/runtime-main.28f7cdf7.js.map",
+    "static/css/2.3c03f26f.chunk.css": "/CRI-fluid-systems/static/css/2.3c03f26f.chunk.css",
+    "static/js/2.f65dd4ef.chunk.js": "/CRI-fluid-systems/static/js/2.f65dd4ef.chunk.js",
+    "static/js/2.f65dd4ef.chunk.js.map": "/CRI-fluid-systems/static/js/2.f65dd4ef.chunk.js.map",
+    "index.html": "/CRI-fluid-systems/index.html",
+    "precache-manifest.093d7a7a0b3f17329263991224c6ed2e.js": "/CRI-fluid-systems/precache-manifest.093d7a7a0b3f17329263991224c6ed2e.js",
+    "service-worker.js": "/CRI-fluid-systems/service-worker.js",
+    "static/css/2.3c03f26f.chunk.css.map": "/CRI-fluid-systems/static/css/2.3c03f26f.chunk.css.map",
+    "static/css/main.ab1cc257.chunk.css.map": "/CRI-fluid-systems/static/css/main.ab1cc257.chunk.css.map",
+    "static/js/2.f65dd4ef.chunk.js.LICENSE.txt": "/CRI-fluid-systems/static/js/2.f65dd4ef.chunk.js.LICENSE.txt",
+    "static/media/1.png": "/CRI-fluid-systems/static/media/1.29d96123.png",
+    "static/media/2.png": "/CRI-fluid-systems/static/media/2.57d5c650.png",
+    "static/media/3.png": "/CRI-fluid-systems/static/media/3.b5ddb141.png",
+    "static/media/logo.png": "/CRI-fluid-systems/static/media/logo.5762018e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.28f7cdf7.js",
+    "static/css/2.3c03f26f.chunk.css",
+    "static/js/2.f65dd4ef.chunk.js",
+    "static/css/main.ab1cc257.chunk.css",
+    "static/js/main.7db3c538.chunk.js"
+  ]
+}
