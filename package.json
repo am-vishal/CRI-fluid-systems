@@ -1,0 +1,26 @@
+{
+  "name": "cri-fluid-systems",
+  "version": "1.0.0",
+  "description": "",
+  "main": "precache-manifest.093d7a7a0b3f17329263991224c6ed2e.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/am-vishal/CRI-fluid-systems.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/am-vishal/CRI-fluid-systems/issues"
+  },
+  "homepage": "https://github.com/am-vishal/CRI-fluid-systems#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "webpack": "^5.6.0"
+  }
+}
